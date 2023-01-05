@@ -1,2 +1,2 @@
 # Challenge-2-Workflow-creating-Artifacts
-In this
+In this challenge you'll use a workflow to create an artifact. Start this challenge by creating a workflow file in a new repository. The workflow should be triggered by a push to the repo. At the beginning of your workflow, create an environment variable for the name of the artifact. You'll use this as an argument for actions in the workflow. Continue the workflow by creating one job with two steps. The first step should use the checkout action to check out all of the code in the repository. The second step should use the upload artifact action to create an artifact with the name defined by the environment variable. 
